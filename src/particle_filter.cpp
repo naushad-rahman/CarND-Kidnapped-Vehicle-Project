@@ -18,7 +18,7 @@
 #include "particle_filter.h"
 
 using namespace std;
-#define NUMBER_OF_PARTICLES 500 // Can be decreased (even 12 particles can pass the test)
+#define NUMBER_OF_PARTICLES 100 // Can be decreased (even 12 particles can pass the test)
 #define EPS 0.001  // Just a small number
 void ParticleFilter::init(double x, double y, double theta, double std[]) {
 	// TODO: Set the number of particles. Initialize all particles to first position (based on estimates of
